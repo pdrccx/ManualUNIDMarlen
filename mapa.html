@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapa del Campus · UNID</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar scrolled" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-logo">UNID</span>
+        <span class="brand-text">Manual de Nuevo Ingreso</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#bienvenida">Bienvenida</a>
+        <a href="index.html#organizacion">Organización</a>
+        <a href="index.html#procesos">Procesos</a>
+        <a href="index.html#directorio">Directorio</a>
+        <a href="mapa.html" class="nav-cta active">Mapa</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== ENCABEZADO ===== -->
+  <section class="page-head">
+    <div class="container">
+      <a href="index.html" class="back-link">← Volver al inicio</a>
+      <span class="eyebrow">Ubicación</span>
+      <h1 class="section-title">Mapa del campus</h1>
+      <p class="lead">Encuentra cómo llegar y ubica cada una de las áreas.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTENIDO MAPA ===== -->
+  <section class="section">
+    <div class="container map-grid">
+
+      <!-- Foto del campus (placeholder) -->
+      <div class="map-photo reveal">
+        <div class="photo-placeholder big">
+          <svg viewBox="0 0 24 24" width="64" height="64"><path fill="currentColor" d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2M8.5 13.5l2.5 3l3.5-4.5l4.5 6H5z"/></svg>
+          <p>[PENDIENTE] Foto del campus</p>
+          <small>Coloca aquí la imagen en <code>img/campus.jpg</code></small>
+        </div>
+      </div>
+
+      <!-- Info de dirección -->
+      <aside class="map-info reveal">
+        <h3>Datos de ubicación</h3>
+        <ul class="info-list">
+          <li>
+            <span class="info-ico"></span>
+            <div><strong>Dirección</strong><p class="pending">[PENDIENTE] Calle, número, colonia, ciudad y C.P.</p></div>
+          </li>
+          <li>
+            <span class="info-ico"></span>
+            <div><strong>Horario de atención</strong><p class="pending">[PENDIENTE] Lunes a viernes, horario.</p></div>
+          </li>
+          <li>
+            <span class="info-ico"></span>
+            <div><strong>Teléfono</strong><p class="pending">[PENDIENTE] Número de contacto.</p></div>
+          </li>
+          <li>
+            <span class="info-ico"></span>
+            <div><strong>Correo</strong><p class="pending">[PENDIENTE] Correo institucional.</p></div>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-block" id="comoLlegar">Cómo llegar (Google Maps)</a>
+        <small class="hint-note">[PENDIENTE] Enlazar a la ubicación real en Google Maps.</small>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== MAPA INTERACTIVO (placeholder) ===== -->
+  <section class="section section-alt">
+    <div class="container reveal">
+      <h2 class="section-title">Mapa interactivo</h2>
+      <p class="lead">Aquí se insertará el mapa embebido de Google Maps.</p>
+      <div class="map-embed">
+        <div class="photo-placeholder big">
+          <svg viewBox="0 0 24 24" width="64" height="64"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7m0 9.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5"/></svg>
+          <p>[PENDIENTE] Mapa embebido (iframe de Google Maps)</p>
+          <small>Reemplaza este recuadro con el <code>&lt;iframe&gt;</code> del mapa.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ÁREAS DEL CAMPUS ===== -->
+  <section class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Áreas que necesitas ubicar</h2>
+      <div class="cards-grid">
+        <article class="office"><h3>Coordinación Académica</h3><p class="pending">[PENDIENTE] Edificio / planta.</p></article>
+        <article class="office"><h3>Servicios Escolares</h3><p class="pending">[PENDIENTE] Edificio / planta.</p></article>
+        <article class="office"><h3>Caja / Administración</h3><p class="pending">[PENDIENTE] Edificio / planta.</p></article>
+        <article class="office"><h3>Vinculación y Servicio Social</h3><p class="pending">[PENDIENTE] Edificio / planta.</p></article>
+        <article class="office"><h3>Soporte Tecnológico</h3><p class="pending">[PENDIENTE] Edificio / planta.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <span class="brand-logo">UNID</span>
+        <p>Manual de Procedimiento para Nuevo Ingreso · Prototipo</p>
+      </div>
+      <p class="footer-note">Recuerda que la UNID está comprometida con tu desarrollo académico y personal.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
