@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---- Navbar: cambia estilo al hacer scroll ---- */
   const navbar = document.getElementById('navbar');
-  const isMapPage = navbar && navbar.classList.contains('scrolled');
   const onScroll = () => {
-    if (isMapPage) return; // en mapa.html siempre va sólida
     if (window.scrollY > 60) navbar.classList.add('scrolled');
     else navbar.classList.remove('scrolled');
   };
@@ -62,12 +60,4 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach(el => el.classList.add('visible'));
   }
 
-  /* ---- Botón "Cómo llegar" (placeholder) ---- */
-  const comoLlegar = document.getElementById('comoLlegar');
-  if (comoLlegar) {
-    comoLlegar.addEventListener('click', (ev) => {
-      ev.preventDefault();
-      alert('[PENDIENTE] Aquí se abrirá la ubicación real en Google Maps.');
-    });
-  }
 });

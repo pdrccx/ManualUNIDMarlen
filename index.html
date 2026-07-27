@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
   <title>Manual de Nuevo Ingreso · UNID</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,11 +20,9 @@
       </a>
       <nav class="nav-links" id="navLinks">
         <a href="#bienvenida">Bienvenida</a>
-        <a href="#conoce">Conoce la UNID</a>
-        <a href="#organizacion">Organización</a>
+        <a href="#organigrama">Organigrama</a>
         <a href="#procesos">Procesos</a>
         <a href="#directorio">Directorio</a>
-        <a href="mapa.html" class="nav-cta">Ver Mapa</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
         <span></span><span></span><span></span>
@@ -32,9 +30,8 @@
     </div>
   </header>
 
-  <!-- ===== HERO / FOTO CAMPUS ===== -->
+  <!-- ===== HERO ===== -->
   <section class="hero" id="inicio">
-    <!-- RECUADRO PARA FOTO DEL CAMPUS (pendiente) -->
     <div class="hero-photo" id="heroPhoto">
       <div class="photo-placeholder">
         <svg viewBox="0 0 24 24" width="56" height="56"><path fill="currentColor" d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2M8.5 13.5l2.5 3l3.5-4.5l4.5 6H5z"/></svg>
@@ -49,10 +46,6 @@
       <p>Tu guía clara, visual y práctica para iniciar tu vida universitaria.</p>
       <div class="hero-btns">
         <a href="#bienvenida" class="btn btn-primary">Comenzar</a>
-        <a href="mapa.html" class="btn btn-ghost">
-          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7m0 9.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5"/></svg>
-          Ver el mapa del campus
-        </a>
       </div>
     </div>
     <div class="scroll-hint"><span></span></div>
@@ -73,108 +66,217 @@
         Nuestro objetivo es que conozcas los servicios, procesos y canales de atención disponibles
         para que tu experiencia universitaria sea organizada, eficiente y exitosa.
       </p>
+      <div class="qa">
+        <h3>Misión y Visión</h3>
+        <p><strong>Misión:</strong> Formar integralmente a las personas.</p>
+        <p><strong>Visión:</strong> Consolidarse en todo el país como una alternativa de educación superior de calidad.</p>
+      </div>
     </div>
   </section>
 
-  <!-- ===== CONOCE LA UNID: MISIÓN / VISIÓN / VALORES ===== -->
-  <section class="section section-alt" id="conoce">
+  <!-- ===== ORGANIGRAMA ===== -->
+  <section class="section section-alt" id="organigrama">
     <div class="container">
       <div class="reveal">
-        <span class="eyebrow">1. Conoce la UNID</span>
-        <h2 class="section-title">Misión, visión y valores</h2>
+        <span class="eyebrow">Estructura organizacional</span>
+        <h2 class="section-title">Organigrama UNID Campus Zacatecas</h2>
+        <p class="lead">Conoce los puestos, objetivos y funciones de cada área.</p>
       </div>
-      <div class="cards-3">
-        <article class="card reveal">
-          <div class="card-icon"></div>
-          <h3>Misión</h3>
-          <p class="pending">[PENDIENTE] Colocar misión institucional.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon"></div>
-          <h3>Visión</h3>
-          <p class="pending">[PENDIENTE] Colocar visión institucional.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon"></div>
-          <h3>Valores</h3>
-          <ul class="chips">
-            <li>Respeto</li>
-            <li>Responsabilidad</li>
-            <li>Honestidad</li>
-            <li>Solidaridad</li>
-            <li>Compromiso</li>
+      <div class="org-grid">
+
+        <article class="office reveal">
+          <h3>Rector(a) de Campus</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Dirigir estratégica y operativamente el campus, asegurando el cumplimiento de los objetivos institucionales en materia académica, administrativa, financiera y de crecimiento.</p>
+          <ul>
+            <li>Representar institucionalmente al campus.</li>
+            <li>Definir estrategias de crecimiento y posicionamiento.</li>
+            <li>Supervisar el cumplimiento de indicadores institucionales.</li>
+            <li>Dirigir a las áreas académicas, administrativas y comerciales.</li>
+            <li>Gestionar relaciones con organismos externos y autoridades.</li>
+            <li>Autorizar proyectos, presupuestos y planes de trabajo.</li>
           </ul>
         </article>
-      </div>
-      <div class="qa reveal">
-        <h3>¿Qué es la UNID?</h3>
-        <p>
-          La Universidad Interamericana para el Desarrollo es una institución de educación superior
-          comprometida con la formación integral de sus estudiantes mediante programas académicos de
-          calidad, innovación educativa y vinculación con el sector productivo.
-        </p>
+
+        <article class="office reveal">
+          <h3>Subdirector(a) de Campus</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Apoyar a la Rectoría en la coordinación y seguimiento de las operaciones institucionales para asegurar el cumplimiento de metas.</p>
+          <ul>
+            <li>Dar seguimiento a indicadores institucionales.</li>
+            <li>Coordinar proyectos estratégicos.</li>
+            <li>Supervisar el desempeño de las distintas áreas.</li>
+            <li>Apoyar en la toma de decisiones operativas.</li>
+            <li>Sustituir a la Rectoría cuando sea necesario.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Gerente de Administración</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Administrar eficientemente los recursos financieros, humanos, materiales y tecnológicos del campus.</p>
+          <ul>
+            <li>Elaborar y controlar presupuestos.</li>
+            <li>Supervisar pagos, compras y proveedores.</li>
+            <li>Coordinar recursos humanos y administración.</li>
+            <li>Garantizar el cumplimiento de políticas administrativas.</li>
+            <li>Supervisar el mantenimiento del campus.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Auxiliar Administrativo</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Brindar apoyo administrativo a la Gerencia de Administración en el control documental y operativo.</p>
+          <ul>
+            <li>Elaborar reportes administrativos.</li>
+            <li>Controlar archivos físicos y digitales.</li>
+            <li>Dar seguimiento a solicitudes internas.</li>
+            <li>Apoyar en procesos de compras y pagos.</li>
+            <li>Atender proveedores y usuarios internos.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Gerente de Crecimiento</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Diseñar e implementar estrategias para el cumplimiento de metas de inscripción, retención y posicionamiento institucional.</p>
+          <ul>
+            <li>Dirigir al equipo comercial.</li>
+            <li>Supervisar campañas de promoción.</li>
+            <li>Analizar indicadores de captación.</li>
+            <li>Implementar estrategias comerciales.</li>
+            <li>Coordinar eventos de promoción.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Asesor Educativo (Joven, Adulto y HH)</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Brindar asesoría personalizada a prospectos para lograr su inscripción y permanencia.</p>
+          <ul>
+            <li>Atender prospectos.</li>
+            <li>Dar seguimiento mediante CRM.</li>
+            <li>Realizar llamadas y citas.</li>
+            <li>Informar sobre programas académicos.</li>
+            <li>Alcanzar metas de inscripción.</li>
+            <li>Dar seguimiento hasta la inscripción.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Promotor Educativo (Joven y Adulto)</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Generar prospectos mediante actividades de promoción externa.</p>
+          <ul>
+            <li>Visitar preparatorias, empresas e instituciones.</li>
+            <li>Participar en ferias educativas.</li>
+            <li>Organizar activaciones promocionales.</li>
+            <li>Prospectar nuevos mercados.</li>
+            <li>Canalizar interesados con los asesores educativos.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Coordinador(a) de Vida Académica</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Coordinar las actividades académicas y de experiencia estudiantil para garantizar la calidad educativa.</p>
+          <ul>
+            <li>Supervisar procesos académicos.</li>
+            <li>Coordinar eventos institucionales.</li>
+            <li>Dar seguimiento a docentes y estudiantes.</li>
+            <li>Vigilar el cumplimiento del modelo educativo.</li>
+            <li>Coordinar programas de permanencia estudiantil.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Coordinador General Académico</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Coordinar la operación académica del campus garantizando la calidad de los programas educativos.</p>
+          <ul>
+            <li>Supervisar coordinaciones académicas.</li>
+            <li>Coordinar horarios y cargas docentes.</li>
+            <li>Dar seguimiento a indicadores académicos.</li>
+            <li>Apoyar procesos de acreditación.</li>
+            <li>Coordinar evaluaciones docentes.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Coordinador(a) de Programas Académicos</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Administrar la operación académica de los programas asignados.</p>
+          <ul>
+            <li>Acompañar académicamente a los alumnos.</li>
+            <li>Supervisar el desempeño docente.</li>
+            <li>Coordinar actividades académicas.</li>
+            <li>Dar seguimiento a bajas y reingresos.</li>
+            <li>Organizar eventos académicos.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Especialista de Servicios Escolares</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Administrar los procesos escolares asegurando el cumplimiento de la normatividad institucional.</p>
+          <ul>
+            <li>Supervisar inscripciones y reinscripciones.</li>
+            <li>Coordinar certificaciones y titulaciones.</li>
+            <li>Gestionar expedientes escolares.</li>
+            <li>Supervisar procesos en Banner.</li>
+            <li>Garantizar el cumplimiento de políticas escolares.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Asesor de Servicios Escolares</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Brindar atención y orientación a los estudiantes en los procesos escolares.</p>
+          <ul>
+            <li>Atender alumnos.</li>
+            <li>Apoyar en inscripciones.</li>
+            <li>Elaborar constancias.</li>
+            <li>Dar seguimiento a trámites escolares.</li>
+            <li>Mantener actualizados los expedientes.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Coordinador(a) de Vinculación</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Desarrollar alianzas estratégicas con organismos públicos, privados y sociales que fortalezcan la formación integral de los estudiantes y contribuyan al crecimiento institucional.</p>
+          <ul>
+            <li>Gestionar convenios de colaboración.</li>
+            <li>Coordinar programas de estadía empresarial y servicio social.</li>
+            <li>Organizar visitas empresariales, conferencias y eventos institucionales.</li>
+            <li>Desarrollar estrategias de vinculación con empresas y organismos.</li>
+            <li>Gestionar patrocinadores y alianzas estratégicas.</li>
+            <li>Dar seguimiento a indicadores de vinculación.</li>
+            <li>Coordinar acciones de empleabilidad y bolsa de trabajo.</li>
+          </ul>
+        </article>
+
+        <article class="office reveal">
+          <h3>Auxiliar de Vinculación</h3>
+          <div class="sub">Objetivo del puesto</div>
+          <p class="obj-text">Apoyar la operación administrativa y logística del área de Vinculación.</p>
+          <ul>
+            <li>Dar seguimiento a convenios.</li>
+            <li>Organizar expedientes y documentación.</li>
+            <li>Apoyar la logística de eventos.</li>
+            <li>Atender empresas y estudiantes.</li>
+            <li>Elaborar reportes e indicadores.</li>
+            <li>Coordinar actividades administrativas del área.</li>
+          </ul>
+        </article>
+
       </div>
     </div>
   </section>
 
-  <!-- ===== ORGANIZACIÓN: ¿QUIÉN HACE QUÉ? ===== -->
-  <section class="section" id="organizacion">
-    <div class="container">
-      <div class="reveal">
-        <span class="eyebrow">2. Organización</span>
-        <h2 class="section-title">¿Quién hace qué?</h2>
-        <p class="lead">Conoce a dónde acudir y las funciones de cada área.</p>
-      </div>
-      <div class="cards-grid">
-        <article class="office reveal">
-          <h3>Coordinación Académica</h3>
-          <ul>
-            <li>Asignación de horarios</li>
-            <li>Atención académica</li>
-            <li>Cambios de materias</li>
-            <li>Seguimiento escolar</li>
-          </ul>
-        </article>
-        <article class="office reveal">
-          <h3>Servicios Escolares</h3>
-          <ul>
-            <li>Inscripciones y reinscripciones</li>
-            <li>Emisión de constancias</li>
-            <li>Control de documentos</li>
-            <li>Expedientes académicos</li>
-          </ul>
-        </article>
-        <article class="office reveal">
-          <h3>Administración</h3>
-          <ul>
-            <li>Cobro de colegiaturas</li>
-            <li>Convenios de pago</li>
-            <li>Facturación</li>
-            <li>Estados de cuenta</li>
-          </ul>
-        </article>
-        <article class="office reveal">
-          <h3>Vinculación y Servicio Social</h3>
-          <ul>
-            <li>Servicio social</li>
-            <li>Prácticas profesionales</li>
-            <li>Convenios institucionales</li>
-          </ul>
-        </article>
-        <article class="office reveal">
-          <h3>Soporte Tecnológico</h3>
-          <ul>
-            <li>Acceso a plataformas</li>
-            <li>Recuperación de contraseñas</li>
-            <li>Problemas técnicos</li>
-          </ul>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== PROCESOS ESCOLARES (ACORDEÓN) ===== -->
-  <section class="section section-alt" id="procesos">
+  <!-- ===== PROCESOS ESCOLARES ===== -->
+  <section class="section" id="procesos">
     <div class="container">
       <div class="reveal">
         <span class="eyebrow">3. Procesos escolares</span>
@@ -183,6 +285,8 @@
       </div>
 
       <div class="accordion" id="accordion">
+
+        <!-- Reinscripción -->
         <div class="acc-item reveal">
           <button class="acc-head">Reinscripción <span class="acc-ico">+</span></button>
           <div class="acc-body">
@@ -195,6 +299,34 @@
           </div>
         </div>
 
+        <!-- Renovación de Beca -->
+        <div class="acc-item reveal">
+          <button class="acc-head">Renovación de beca <span class="acc-ico">+</span></button>
+          <div class="acc-body">
+            <div class="highlight-box">
+              <p><strong>Proceso de renovación de beca:</strong></p>
+              <p>Los alumnos que aprobaron el cuatrimestre anterior tendrán que pagar su reinscripción al siguiente cuatrimestre como máximo el día que indiquen las áreas correspondientes sin penalización de beca por pago tardío ni recargos, de no haber cubierto el monto a esta fecha, deberán cubrir el costo de la reinscripción con lo que se especifique.</p>
+            </div>
+
+            <h4>Requisitos para renovación de beca</h4>
+            <ul>
+              <li>Contar con un promedio mínimo de 8.5 en el ciclo inmediato anterior (no se considera la asignatura de inglés, ni materias no curriculares para promedio).</li>
+              <li>Aprobar todas las asignaturas (incluyendo inglés).</li>
+              <li>Estar debidamente inscrito en el periodo a cursar y no presentar adeudos con la institución (revisar tabla de fechas límites de pago de reinscripción punto III).</li>
+              <li>En caso de que el alumno solicite el estudio socioeconómico, deberá acudir a la Administración para tramitar la ficha de pago correspondiente (Costo: $983.00).</li>
+              <li>Realizar el trámite de renovación en las fechas establecidas en la convocatoria dentro de banner autoservicio.</li>
+              <li>Realizar el pago del servicio de educación garantizada (No aplica para beca SEP).</li>
+              <li>Realizar cuatrimestralmente la evaluación docente.</li>
+              <li>Cumplir con las horas de servicio becario asignadas durante el periodo.</li>
+            </ul>
+
+            <div class="highlight-box warning">
+              <p><strong>⚠️ Penalizaciones:</strong> El no cumplir alguno de los requisitos anteriormente descritos el alumno será penalizado con -5% del total de su beca. A su segunda incidencia el alumno pierde su beca y puede optar por crédito educativo.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solicitud de constancias -->
         <div class="acc-item reveal">
           <button class="acc-head">Solicitud de constancias <span class="acc-ico">+</span></button>
           <div class="acc-body">
@@ -205,6 +337,7 @@
           </div>
         </div>
 
+        <!-- Cambio de horario -->
         <div class="acc-item reveal">
           <button class="acc-head">Cambio de horario <span class="acc-ico">+</span></button>
           <div class="acc-body">
@@ -215,6 +348,7 @@
           </div>
         </div>
 
+        <!-- Pagos y becas -->
         <div class="acc-item reveal">
           <button class="acc-head">Pagos y becas <span class="acc-ico">+</span></button>
           <div class="acc-body">
@@ -229,6 +363,7 @@
           </div>
         </div>
 
+        <!-- Plataforma escolar -->
         <div class="acc-item reveal">
           <button class="acc-head">Plataforma escolar (Talisis / Banner) <span class="acc-ico">+</span></button>
           <div class="acc-body">
@@ -242,6 +377,7 @@
           </div>
         </div>
 
+        <!-- Credencial institucional -->
         <div class="acc-item reveal">
           <button class="acc-head">Credencial institucional <span class="acc-ico">+</span></button>
           <div class="acc-body">
@@ -252,6 +388,7 @@
           </div>
         </div>
 
+        <!-- Servicio social -->
         <div class="acc-item reveal">
           <button class="acc-head">Servicio social <span class="acc-ico">+</span></button>
           <div class="acc-body">
@@ -263,6 +400,7 @@
             <ol><li>Acudir a Vinculación</li><li>Seleccionar programa</li><li>Registrar actividades</li><li>Entregar reportes</li><li>Liberar servicio social</li></ol>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -285,36 +423,35 @@
     </div>
   </section>
 
-  <!-- ===== DIRECTORIO ===== -->
-  <section class="section section-alt" id="directorio">
-    <div class="container reveal">
-      <span class="eyebrow">Directorio institucional</span>
-      <h2 class="section-title">¿A quién contactar?</h2>
-      <div class="table-wrap">
-        <table class="directory">
-          <thead>
-            <tr><th>Área</th><th>Responsable</th><th>Correo</th><th>Extensión</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Coordinación Académica</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td></tr>
-            <tr><td>Servicios Escolares</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td></tr>
-            <tr><td>Caja</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td></tr>
-            <tr><td>Vinculación</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td></tr>
-            <tr><td>Soporte técnico</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td><td class="pending">[PENDIENTE]</td></tr>
-          </tbody>
-        </table>
-      </div>
+<!-- ===== DIRECTORIO ===== -->
+<section class="section section-alt" id="directorio">
+  <div class="container reveal">
+    <span class="eyebrow">Directorio institucional</span>
+    <h2 class="section-title">¿A quién contactar?</h2>
+    <div class="table-wrap">
+      <table class="directory">
+        <thead>
+          <tr><th>Área</th><th>Responsable</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Rector de Campus</td><td>Sarúl De La Torre Flores</td></tr>
+          <tr><td>Gerente de Administración</td><td>Román Paez Rodarte</td></tr>
+          <tr><td>Gerente de Crecimiento</td><td>Ana Lilia Cruz Carranza</td></tr>
+          <tr><td>Asesor Educativo Joven</td><td>Liliana Portela Avello</td></tr>
+          <tr><td>Asesor Educativo Joven</td><td>Ángel Sebastián Moreno Martínez</td></tr>
+          <tr><td>Asesor Educativo Joven</td><td>Karla Moreno Martínez</td></tr>
+          <tr><td>Coordinador General Académico</td><td>Rosaura Barreiro Muñoz</td></tr>
+          <tr><td>Coordinador de Programas Académicos</td><td>Marta Guadalupe Monroy Mora</td></tr>
+          <tr><td>Coordinador de Programas Académicos</td><td>Livia Carmen Sol Chacón Díaz</td></tr>
+          <tr><td>Coordinador de Programas Académicos HH</td><td>Guadalupe Monserrat De Los Santos Otero</td></tr>
+          <tr><td>Asesor de Servicios Escolares</td><td>Yamillet Andrea Delgadillo Román</td></tr>
+          <tr><td>Coordinador de Vinculación</td><td>Mónica Pérez Ochoa</td></tr>
+          <tr><td>Auxiliar de Vinculación</td><td>Mabel Del Carmen Arredondo Sandoval</td></tr>
+        </tbody>
+      </table>
     </div>
-  </section>
-
-  <!-- ===== CTA MAPA ===== -->
-  <section class="cta-map reveal">
-    <div class="container">
-      <h2>¿No encuentras un área?</h2>
-      <p>Consulta el mapa del campus para ubicar cada oficina.</p>
-      <a href="mapa.html" class="btn btn-primary btn-lg">Ir al mapa del campus →</a>
-    </div>
-  </section>
+  </div>
+</section>
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
